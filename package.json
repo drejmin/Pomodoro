@@ -2,6 +2,10 @@
   "name": "pomodoro",
   "private": true,
   "version": "0.0.0",
+  "engines": {
+    "node": "18.16.1",
+    "npm": "9.5.1"
+  },
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -17,6 +21,7 @@
     "@tsparticles/react": "^3.0.0",
     "@tsparticles/slim": "^3.2.2",
     "@types/three": "^0.161.2",
+    "@vitejs/plugin-react": "^4.2.1",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
     "cors": "^2.8.5",
