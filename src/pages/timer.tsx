@@ -1,7 +1,7 @@
 import { Button } from '@/components/ui/button';
 import * as Select from '@radix-ui/react-select';
 import { useEffect, useRef, useState } from 'react';
-import '../../public/Relaxing Alarm tone stress free.mp3';
+import '../assets/Relaxing Alarm tone stress free.mp3';
 import { MovingBackground } from '@/components/ui/MovingBackground';
 
 
@@ -12,7 +12,7 @@ const Timer=() => {
   const [timerName, setTimerName] = useState('Pomodoro');
   const [alarmPlayed, setAlarmPlayed] = useState(false);
 
-  const alarmSound = useRef(new Audio('../../public/Relaxing Alarm tone stress free.mp3'))
+  const alarmSound = useRef(new Audio('../assets/Relaxing Alarm tone stress free.mp3'))
 
   
   useEffect(() => {
