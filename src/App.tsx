@@ -3,7 +3,7 @@ import Timer from './pages/timer'
 import {Routes, Route} from 'react-router-dom';
 
 
-function App() {
+const App = () => {
   return (
     <main className='App'>
         <Routes >
